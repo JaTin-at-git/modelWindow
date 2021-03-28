@@ -1,0 +1,20 @@
+@media only screen and (max-width: 900px) {
+
+    body {
+        display: block;
+        justify-content: space-evenly;
+      }
+
+    .show-modal {
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .modal {
+        position: absolute;
+        top: 250px;
+        width: 70%;
+        padding: 1rem;
+    }
+}

@@ -20,8 +20,7 @@ for (var i = 0; i < showModelBtn.length; i++) {
 });
 
 document.querySelector("body").addEventListener("keydown",function(e){
-  if(e.key=="escape" && !modal.classList.contains('hidden')){
-    alert(e.key);
+  if(e.key=="Escape" && !modal.classList.contains('hidden')){
     overlay.classList.add('hidden');
     modal.classList.add('hidden');
   }
